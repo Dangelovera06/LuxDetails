@@ -935,6 +935,50 @@ input, select, textarea {
 .form-col .section-title { margin-bottom: 0.5rem; }
 
 /* ============================================
+   MARINE BANNER
+   ============================================ */
+.marine-banner {
+  background: linear-gradient(100deg, #0a1a2e 0%, #0d2440 50%, #091828 100%);
+  border-top: 1px solid rgba(65, 192, 240, 0.2);
+  border-bottom: 1px solid rgba(65, 192, 240, 0.2);
+  padding: 2.5rem 2rem;
+}
+.marine-banner-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.mb-content {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  flex-wrap: wrap;
+}
+.mb-logo {
+  height: 52px;
+  width: auto;
+  filter: brightness(1);
+  flex-shrink: 0;
+}
+.mb-content h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 0.25rem;
+}
+.mb-content p {
+  font-size: 0.88rem;
+  color: var(--gray-2);
+}
+
+/* ============================================
    FOOTER
    ============================================ */
 #footer {
